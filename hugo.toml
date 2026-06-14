@@ -4,18 +4,20 @@ theme = "PaperMod"
 
 [params]
   defaultTheme = "auto"
+
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
   ShowToc = false
   ShowShareButtons = false
-  ShowHomeContent = false  
+  
   mainSections = ["posts"]
-  disableThemeToggle = false
-  disableSchema = true
-  ShowFullTextinRSS = false 
-  disableSeo = true
+ 
+  ShowHomeContent = false  
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = false
+
+  ShowSocialIcons = true
 
 [markup]
   [markup.goldmark]
