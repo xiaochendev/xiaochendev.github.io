@@ -10,7 +10,6 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = false
   ShowShareButtons = false
-  ShowPostNavLinks = true
   ShowHomeContent = false  
 
   homeInfoParams = { Title = "Xiao' Notes", Content = "Machine learning & systems notes" }
