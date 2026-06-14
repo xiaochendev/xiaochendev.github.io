@@ -1,13 +1,14 @@
 {{ define "main" }}
-  <header class="page-header">
-    <h1>Welcome</h1>
-    <p>Hi. This is Xiao. Its the collection of things I learned</p>
-  </header>
 
-  {{ range .Pages }}
-    <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Summary }}</p>
-    </article>
-  {{ end }}
+<header class="page-header">
+  <h1>Welcome</h1>
+  <p>Hi, this is Xiao. It's my notes.</p>
+</header>
+
+{{- $pages := where site.RegularPages "Section" "posts" -}}
+
+{{- range $pages }}
+  {{ .Render "summary" }}
+{{- end }}
+
 {{ end }}
