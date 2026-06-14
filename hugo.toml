@@ -12,8 +12,6 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowHomeContent = false  
   mainSections = ["posts"]
-
-  defaultTheme = "auto"
   disableThemeToggle = false
  
 [markup]
