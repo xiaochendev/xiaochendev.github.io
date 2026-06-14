@@ -12,8 +12,6 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowHomeContent = false  
 
-  homeInfoParams = { Title = "Xiao' Notes", Content = "Machine learning & systems notes" }
-
 [menu]
   [[menu.main]]
     name = "Posts"
