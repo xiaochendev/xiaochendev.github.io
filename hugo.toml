@@ -1,5 +1,5 @@
 baseURL = "https://xiaochendev.github.io/"
-title = "My Blog"
+title = "x'Notes"
 theme = "PaperMod"
 
 [params]
@@ -11,6 +11,8 @@ theme = "PaperMod"
   ShowToc = false
   ShowShareButtons = false
   ShowHomeContent = false  
+
+  homeInfoParams = { Title = "👋" }
 
 [menu]
   [[menu.main]]
