@@ -1,3 +1,22 @@
 baseURL = "https://xiaochendev.github.io/"
 title = "My Blog"
 theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowHomeContent = false  
+
+  homeInfoParams = { Title = "Xiao' Notes", Content = "Machine learning & systems notes" }
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
