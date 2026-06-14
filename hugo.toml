@@ -11,9 +11,10 @@ theme = "PaperMod"
   ShowToc = false
   ShowShareButtons = false
   
-  mainSections = ["posts"]
  
   ShowHomeContent = false  
+  mainSections = ["posts"]
+
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = false
 
