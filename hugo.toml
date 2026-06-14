@@ -13,7 +13,9 @@ theme = "PaperMod"
   ShowHomeContent = false  
   mainSections = ["posts"]
   disableThemeToggle = false
- 
+  disableSchema = false
+  ShowFullTextinRSS = false 
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
