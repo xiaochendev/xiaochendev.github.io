@@ -12,6 +12,8 @@ theme = "PaperMod"
   ShowShareButtons = false
   mainSections = ["posts"]
   ShowHomeContent = false
+  env = "production"
+  disableSeo = true
 
 [menu]
   [[menu.main]]
