@@ -11,6 +11,7 @@ theme = "PaperMod"
   ShowToc = false
   ShowShareButtons = false
   mainSections = ["posts"]
+  ShowHomeContent = false
 
 [menu]
   [[menu.main]]
