@@ -11,11 +11,21 @@ theme = "PaperMod"
   ShowToc = false
   ShowShareButtons = false
   ShowHomeContent = false  
+  mainSections = ["posts"]
 
-  homeInfoParams = { Title = "👋" }
+  defaultTheme = "auto"
+  disableThemeToggle = false
+ 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  
 
 [menu]
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
     weight = 1
+
+[params.socialIcons]
+  github = "https://github.com/xiaochendev"
