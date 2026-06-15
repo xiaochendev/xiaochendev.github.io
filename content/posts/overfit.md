@@ -1,7 +1,7 @@
 ---
 title: "Overfit"
 date: 2026-06-15T01:12:09-04:00
-draft: true
+draft: false
 description: "Intro to overfit"
 tags:
   - overfitting
