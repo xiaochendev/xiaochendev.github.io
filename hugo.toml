@@ -1,11 +1,13 @@
 baseURL = "https://xiaochendev.github.io/"
 title = "x'Notes"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
+[pagination]
+pagerSize = 10
 
 [minify]
 disableXML = true
@@ -46,8 +48,12 @@ minifyOutput = true
     url = "https://github.com/xiaochendev"
 
   [[params.socialIcons]]
-    name = "rss"
-    url = "index.xml"
+    name = "x"
+    url = "https://x.com/xiaochenpro"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/xiaochenpro/"
 
   [params.analytics.google]
     SiteVerificationTag = ""
